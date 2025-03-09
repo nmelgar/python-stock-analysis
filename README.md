@@ -4,7 +4,7 @@ This project is a Stock Analysis tool developed to enhance my skills as a softwa
 
 Data is being used from [Yahoo Finance's](https://finance.yahoo.com/) API.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/_yP_QJjfWYw)
 
 # Data Analysis Results
 
