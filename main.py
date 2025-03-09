@@ -17,8 +17,9 @@ symbol_col = df["symbol"]
 print(symbol_col.count())
 
 # %%
-# check basic stock info
-symbol = "ZVRA"
+# check if symbol existand display basic stock info
+symbol = input("Enter a symbol to analyze: ").upper()
+
 if symbol in symbol_col.values:
     ticker_details = yf.Ticker(symbol)
     info = ticker_details.info
@@ -44,6 +45,8 @@ if symbol in symbol_col.values:
     print("\nShowing only the first and last 5 rows of data:")
     print(tabulate(formatted_data, headers="keys", tablefmt="grid"))
 
+else:
+    print("Please enter a valid symbol :)")
 
 # %%
 data = stock.history(start=start_date, end=end_date)
