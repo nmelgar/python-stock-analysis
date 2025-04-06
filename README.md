@@ -11,7 +11,7 @@ This tool helps investors and enthusiasts:
 
 > Data is powered by [Yahoo Finance](https://finance.yahoo.com/)
 
-[Software Demo Video](https://youtu.be/)
+[Software Demo Video](https://youtu.be/xJb8fSvkM60)
 
 ---
 
@@ -45,8 +45,8 @@ This tool helps investors and enthusiasts:
 To run this project locally:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name
-cd your-repo-name
+git clone https://github.com/nmelgar/python-stock-analysis
+cd python-stock-analysis
 pip install -r requirements.txt
 python app.py
 ```
